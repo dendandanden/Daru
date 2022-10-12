@@ -1,1 +1,1 @@
-https://github.com/dendandanden/daru
+https://dendandanden.github.io/daru
