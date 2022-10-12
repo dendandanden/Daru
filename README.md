@@ -1,1 +1,1 @@
-https://dendandanden.github.io/daru
+Какая то сслыка
