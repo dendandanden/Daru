@@ -1,0 +1,83 @@
+.potential
+  // display: none
+  &__content
+    padding-top: 150px
+    padding-bottom: 170px
+    .title
+      padding-bottom: 20px
+      font-weight: 700
+      font-size: 42px
+      line-height: 50px
+      display: flex
+      align-items: center
+      color: #FFFFFF
+    .subtitle
+      width: 55%
+      font-weight: 400
+      font-size: 20px
+      line-height: 142.8%
+      color: #6A7C95
+    &-items
+      padding-top: 70px
+      display: flex
+      flex-direction: row
+      align-items: center
+    &-item
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: center
+      &:first-child
+        margin-right: 50px
+      &:nth-child(2)
+        margin-right: 30px
+
+@media  ( max-width: 768px  )
+  .potential__content
+    .title
+    .subtitle
+  .potential__content-items
+  .potential__content-item
+    img
+      width: 80%
+@media  ( max-width: 570px  )
+  .potential__content
+    padding-bottom: 50px
+    display: flex
+    justify-content: center
+    text-align: center
+    align-items: center
+    flex-direction: column
+    .title
+      font-size: 34px
+    .subtitle
+      font-size: 16px
+  .potential__content-items
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    text-align: center
+  .potential__content-item
+    margin-bottom: 30px
+    &:first-child
+      margin-right: 0px
+    &:nth-child(2)
+      margin-right: 0px
+@media  ( max-width: 425px  )
+  .potential
+    padding: 0 30px
+  .potential__content
+    .title
+      font-size: 34px
+    .subtitle
+      font-size: 16px
+@media  ( max-width: 320px  )
+  .potencial
+  .potential__content
+    padding-bottom: 50px
+    .title
+      font-size: 34px
+    .subtitle
+      font-size: 14px
+      width: 100%

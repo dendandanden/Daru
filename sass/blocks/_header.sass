@@ -1,0 +1,198 @@
+.header
+  // display: none
+  &__menu
+    padding-top: 100px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &-nav
+      ul
+        display: flex
+        .nav-link
+          margin-right: 60px
+          a
+            color: rgba(118, 134, 159, 0.8)
+            &:hover
+              color: #5CA35B
+          &:last-child
+            margin-right: 0
+  &__content
+    padding-top: 180px
+    display: flex
+    justify-content: space-between
+    .title
+      font-weight: 700
+      font-size: 62px
+      line-height: 101.3%
+      color: #FFFFFF
+    .subtitle
+      padding-top: 40px
+      font-weight: 400
+      font-size: 26px
+      line-height: 129.8%
+      color: #6A7C95
+    button
+      margin-top: 70px
+      padding: 12px 15px
+      background: #5CA35B
+      border-radius: 10px
+      font-weight: 400
+      font-size: 24px
+      line-height: 151.3%
+      color: #FFFFFF
+      cursor: pointer
+    .info
+      padding-top: 160px
+      padding-bottom: 165px
+      display: flex
+      .call
+        margin-right: 25px
+        display: flex
+        align-items: center
+        font-weight: 500
+        font-size: 18px
+        line-height: 151.3%
+        display: flex
+        align-items: center
+        color: rgba(118, 134, 159, 0.8)
+        img
+          margin-right: 10px
+    &-img
+      img
+@media ( max-width: 1200px )
+  .header__content-img
+    img
+      width: 520px
+  .header__content-article
+    .title
+      font-size: 48px
+    .subtitle
+      font-size: 20px
+    button
+      padding: 8px 10px
+      background: #5CA35B
+      border-radius: 10px
+      font-weight: 400
+      font-size: 18px
+      line-height: 151.3%
+      color: #FFFFFF
+      cursor: pointer
+    .info
+      .call
+        font-size: 16px
+@media ( max-width: 1100px )
+  .header__content-img
+    img
+      width: 420px
+  .header__content-article
+    .title
+      font-size: 44px
+    .subtitle
+      font-size: 18px
+    button
+      padding: 7px 9px
+      background: #5CA35B
+      border-radius: 10px
+      font-weight: 400
+      font-size: 16px
+      line-height: 151.3%
+      color: #FFFFFF
+      cursor: pointer
+    .info
+      .call
+        font-size: 14px
+@media ( max-width: 976px )
+  .header__content-img
+    img
+      width: 420px
+  .header__content-article
+    .title
+      font-size: 36px
+    .subtitle
+      font-size: 16px
+    button
+      padding: 7px 9px
+      background: #5CA35B
+      border-radius: 10px
+      font-weight: 400
+      font-size: 14px
+      line-height: 151.3%
+      color: #FFFFFF
+      cursor: pointer
+    .info
+      display: flex
+      flex-direction: column
+      .call
+        margin-bottom: 10px
+        font-size: 13px
+        &:last-child
+          margin-bottom: 0
+@media ( max-width: 768px )
+  .header__menu
+    display: none
+  .header__content-img
+    img
+      width: 350px
+  .header__content-article
+    .title
+      font-size: 32px
+    .subtitle
+      font-size: 14px
+    button
+      padding: 7px 9px
+      background: #5CA35B
+      border-radius: 10px
+      font-weight: 400
+      font-size: 14px
+      line-height: 151.3%
+      color: #FFFFFF
+      cursor: pointer
+    .info
+      display: flex
+      flex-direction: column
+      .call
+        margin-bottom: 10px
+        font-size: 14px
+        img
+
+        &:last-child
+          margin-bottom: 0
+@media ( max-width: 570px )
+  .header__content
+    padding-bottom: 50px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+  .header__menu
+    display: none
+  .header__content-img
+    img
+      width: 250px
+  .header__content-article
+    .title
+      font-size: 28px
+    .subtitle
+      font-size: 14px
+    button
+      padding: 7px 9px
+      background: #5CA35B
+      border-radius: 10px
+      font-weight: 400
+      font-size: 14px
+      line-height: 151.3%
+      color: #FFFFFF
+      cursor: pointer
+    .info
+      padding-bottom: 50px
+      padding-top: 50px
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      .call
+        margin-bottom: 10px
+        font-size: 14px
+        &:last-child
+          margin-bottom: 0
