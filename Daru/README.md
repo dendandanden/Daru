@@ -1,2 +1,0 @@
-# daru
-daru site
