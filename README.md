@@ -1,2 +1,1 @@
-# daru
-daru site
+https://github.com/dendandanden/daru
