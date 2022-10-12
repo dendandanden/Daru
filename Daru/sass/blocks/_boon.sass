@@ -1,0 +1,103 @@
+.boon
+  // display: none
+  background-color: #181F29
+  &__content
+    display: flex
+    padding-top: 140px
+    .title
+      padding-bottom: 20px
+      font-weight: 700
+      font-size: 42px
+      line-height: 50px
+      display: flex
+      align-items: center
+      color: #FFFFFF
+    .subtitle
+      width: 100%
+      font-weight: 400
+      font-size: 20px
+      line-height: 142.8%
+      color: #6A7C95
+    .boon-btn
+      margin-top: 50px
+      width: 262px
+      height: 50px
+      background: #212A38
+      border: none
+      border-radius: 10px
+      font-weight: 400
+      font-size: 20px
+      line-height: 151.3%
+      color: #6A7C95
+      cursor: pointer
+    &-imgs
+      display: flex
+    &-img
+      &:first-child
+        margin-top: 160px
+        margin-right: 50px
+
+// @media  ( max-width: 1200px  )
+// .boon__content-imgs
+//   .small
+//     margin-right: 10px
+@media  ( max-width: 1100px  )
+  .boon__content-text
+    .title
+      font-size: 36px
+    .subtitle
+      font-size: 18px
+    .boon-btn
+      width: 230px
+      font-size: 18px
+  .boon__content-imgs
+    .small
+      margin-right: 10px
+    img
+      width: 140px
+    .big
+      img
+        width: 260px
+@media  ( max-width: 976px  )
+  .boon__content-text
+    .boon-btn
+      width: 210px
+  .boon__content-imgs
+    margin-top: 30px
+    .small
+      margin-right: 10px
+      img
+        width: 140px
+    .big
+      img
+        width: 260px
+@media  ( max-width: 768px  )
+  .boon__content
+    display: flex
+    justify-content: center
+    text-align: center
+    align-items: center
+    flex-direction: column
+  .boon__content-text
+    text-align: center
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+@media  ( max-width: 570px  )
+  .boon__content-text
+    .title
+      font-size: 34px
+    .subtitle
+      font-size: 16px
+  .boon__content-imgs
+    margin-top: 30px
+    .small
+      margin-top: 33px
+      margin-right: 10px
+    img
+      width: 120px
+    .big
+      margin-top: 0px
+      img
+        width: 160px
